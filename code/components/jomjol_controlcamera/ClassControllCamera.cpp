@@ -92,7 +92,8 @@ static camera_config_t camera_config = {
 
 CCamera Camera;
 
-#define FLASH_GPIO GPIO_NUM_4
+;#define FLASH_GPIO GPIO_NUM_4   //GPIO 4 for internal FlashLight
+#define FLASH_GPIO GPIO_NUM_12    //GPIO 12 for external FlashLight
 #define BLINK_GPIO GPIO_NUM_33
 
 typedef struct {
